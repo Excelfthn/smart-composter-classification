@@ -1,0 +1,16 @@
+# Secrets
+.env*
+*.pem
+*.key
+secrets*
+
+# Model weights / artifacts
+*.pt
+*.pth
+*.onnx
+runs/
+v2-smart-composter-classifier-*/
+
+# Python / Jupyter
+__pycache__/
+.ipynb_checkpoints/
